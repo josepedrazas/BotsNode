@@ -1,0 +1,23 @@
+{
+  "name": "botsnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josepedrazas/BotsNode.git"
+  },
+  "author": "Jose Pedraza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josepedrazas/BotsNode/issues"
+  },
+  "homepage": "https://github.com/josepedrazas/BotsNode#readme",
+  "dependencies": {
+    "botbuilder": "^3.9.0",
+    "restify": "^5.0.1"
+  }
+}
