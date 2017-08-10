@@ -6,10 +6,9 @@ server.listen(process.env.port || process.env.PORT || 3978,function(){
     console.log('%s listening to %s', server.name, server.url);
 });
 
-
 var connector = new builder.ChatConnector({
-    appId: 'd507dcbf-435d-4ff7-a97f-c504f6e19ab7',
-    appPassword: 'DsTtrr3Vws3m8ebV8VuPBJA'
+    appId:  process.env.MICROSOFT_APP_ID,
+    appPassword: process.env.MICROSOFT_APP_PASSWORD
 });
 
 var bot = new builder.UniversalBot(connector);
